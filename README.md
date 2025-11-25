@@ -32,7 +32,6 @@ Google sheet(Pivot Tables) and Google Looker Studio(Dashboard)
 - Total views by province
 - Total views by gender
 
-*Dashboard content:*
 
 ## Presentation
 Canva(Slide presentation) contents
