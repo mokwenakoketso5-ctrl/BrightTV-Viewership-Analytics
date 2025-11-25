@@ -7,14 +7,19 @@ The CEO of BightTV has an objective to grow the company's subcription base for t
 To extract insights from the provided dataset that will help the Custpmer Value Management team in decesion making to meet their objective.
 
 ## Planning plartform
-Miro(flow diagram)
+- Miro(Flow diagram)
+- Canva(Gantt chart)
+
 
 ## Coding plartform
 *SQL on Snowflake*
-Unique identifiers: Used COUNT DISTINCT for unique identifiers
-Dates and time: Used DATE functions such as TODATE, TOCHAR, MONTHNAME to group the dates into days, months
-Days and time buckets: Used CASE statements to categorise the time into time buckets and days into weekdays and weekends
-Qualitative data: Used SUM function to calculate the revenue
+- Handling null/missing values on both userprofiles and viewership tables using IFNULL function 
+- Use CASE statements to create age groups from the userprofiles table
+- Create a temporary table called users
+- Format the date/time on viewership table, using TO_TIMESTAMP functions
+- Use CASE statements to categorise days of week and watch time slots
+- Create a temporary table from the viewership table and name it views
+- Joing both temporary tables and export the data to Excel
 
 ## Data visualisation
 Google sheet(Pivot Tables) and Google Looker Studio(Dashboard)
